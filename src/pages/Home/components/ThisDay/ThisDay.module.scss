@@ -4,7 +4,7 @@
   padding: 20px;
   max-width: 400px;
   width: 100%;
-  background: $light-background;
+  background: var(#{--components-background-default});
   box-shadow: $box-shadow;
   border-radius: $border-radius;
 }
@@ -25,14 +25,14 @@
     color: $primary-color;
   }
   .this_day_name {
-    font-style: 40px;
-    color: $lite-color;
+    font-size: 40px;
+    color: var(#{--text-color-default});
   }
 }
 
 .bottom_block {
   .this_time,
-  .this_city{
+  .this_city {
     color: $base-color;
     font-size: 25px;
   }
